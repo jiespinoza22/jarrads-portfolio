@@ -1,2 +1,2 @@
 # jarrads-portfolio
-PWP project
+My portfolio for PWP project.
