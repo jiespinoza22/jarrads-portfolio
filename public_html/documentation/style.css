@@ -1,3 +1,16 @@
-div {
-    font-weight: bolder;
+.masthead {
+    min-height: 50vh;
+    position: relative;
+    background-size: cover;
 }
+
+.masthead .container {
+    overflow: hidden;
+}
+
+.masthead h1 {
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
