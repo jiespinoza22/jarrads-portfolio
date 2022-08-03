@@ -8,9 +8,17 @@
     overflow: hidden;
 }
 
-.masthead h1 {
+.masthead__greeting {
     color: white;
     position: absolute;
-    text-align: center;
+    left: 50%;
+    top: 25%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+h1 {
+    font-family: "fantasy";
 }
 
