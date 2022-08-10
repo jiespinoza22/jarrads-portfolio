@@ -9,7 +9,7 @@
 }
 
 .masthead__greeting {
-    color: white;
+    color: black;
     position: absolute;
     left: 50%;
     top: 25%;
@@ -21,4 +21,9 @@
 h1 {
     font-family: "fantasy";
 }
+
+.contactMe {
+
+}
+
 

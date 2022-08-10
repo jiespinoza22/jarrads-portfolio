@@ -20,13 +20,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">About Me</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#aboutMe">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">My Skills</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#mySkills">My Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Contact Me</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#contactMe">Contact Me</a>
             </ul>
         </div>
     </div>
@@ -41,6 +41,9 @@
                     <div class="col-md-12">
                         <h1 class="text-center">Hey there!</h1>
                         <h1 class="text-center">Jarrad I. Espinoza</h1>
+                        <br>
+                        <div class="text-center" style="font-family: Didot">Ambitious, Athletic, Attentive</div>
+                        <p class="text-center">Front and Back-End Developer</p>
                     </div>
                 </div>
             </div>
@@ -48,44 +51,81 @@
     </div>
 </div>
 
+<div class="bg-secondary">
+    <div class="content row">
 
-<div class="container my-4">
-    <div class="row position-relative">
-        <div class="col-12 col-lg-7">
-            <h1>About Me:</h1>
-            <p></p>
-            <h1>My Skills and Strengths:</h1>
-            <p>Praesent fizzle mi non mauris you son of a bizzle bibendizzle. Aliquam shizzlin dizzle shizzle my nizzle
-                crocodizzle lectizzle.</p>
+        <!-- LEFT PART-->
+        <div class="col-sm-6 left mt-5 p-5">
+            <h1 class="primary-color" id="aboutMe">About Me:</h1>
+            <p>Hello everyone. I come from a wide variety of a background. And still adding to it as I grow. I grew up in a competitive family. Therefor nothing wasn't ever just given to me. Everything was always worked for. That is where my athletic background comes in. Till this day I play sports at a high level. What I learn from that is structure, work with a team, how to overcome adversity, and the most important is take feedback. A lot of that I also brought to my coaching career. The past 8 years I have coaching high school club volleyball (indoor and beach). I've learned over the years that you will never know everything. There is always room to grow in any field that you're in. That being said, I took on this Fullstack Bootcamp to push myself to my limits. My overall goal in life is to become the absolute best version of myself, try hard, and don't ever give up.  </p>
+            <h1 class="primary-color mt-3" id="mySkills">My Skills:</h1>
+            <ul>
+                <li>Front-end with HTML,CSS, Bootstrap, and React.</li>
+                <li>Server-side programming with Node.js and Express.</li>
+                <li>Functional programming.</li>
+                <li>Version control with Git and Github</li>
+                <li>Javascript</li>
+                <li>Using relational databases with PostgreSQL</li>
+            </ul>
+            <h1 class="primary-color">Strengths:</h1>
+            <ul>
+                <li>Patient</li>
+                <li>Positive attitude</li>
+                <li>Team Player/Communication</li>
+                <li>Dedicated</li>
+                <li>Strong work ethic</li>
+                <li>Willingness to keep learning</li>
+                <li>Problem solver</li>
+            </ul>
+        </div>
+        <!-- ./End of the left side -->
+
+        <!--Picture for the right side -->
+        <div class="col-md-6 right">
+            <img class="rounded" src="example-image.jpeg" alt="Myself">
         </div>
     </div>
-    <div class="col-12 col-lg-5 position-relative">
-        test
+</div>
+
+<!--contact info-->
+<div class="container mt-5 mb-5 bg-light rounded">
+    <h1 id="contactMe">How to Reach Me:</h1>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <lable for="firstName" class="form-lable">First Name</lable>
+            <input type="text" class="form-control" id="firstName" required>
+        </div>
+        <div class="col-md-6">
+            <lable for="lasttName" class="form-lable">Last Name</lable>
+            <input type="text" class="form-control" id="lastName" required>
+        </div>
+        <div class="col-md-6">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="emailInfo" required>
+        </div>
+        <div class="col-md-6">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (505) 867-5309">
+        </div>
+        <div class="col-md-8">
+            <label for="comments" class="form-control">Comments, Questions?</label>
+            <textarea class="form-control" id="comments" rows="3" required></textarea>
+        </div>
+        <div class="col-md-12 mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+
+<footer class="bg-dark text-light text-center py-4">
+    <div class="footer">
+     Created by Jarrad 2022 |
+    <a href="https://github.com/jiespinoza22">Github</a>
+       | <a href="https://www.linkedin.com/in/jarrad-i-espinoza07">LinkedIn</a>
     </div>
-</div>
-
-<div class="container">
-    <h1 class="heading">How to Reach Me:</h1>
-</div>
-<div class="row">
-    <div class="col-md-6">
-        <form>
-            <label>
-                <input type="Text" name="text" required="" placeholder="Your Name" class="form-control">
-                <br>
-                <input type="Email" name="text" required="" placeholder="Your Email" class="form-control">
-                <br>
-                <input type="Phone Number" name="text" required="" placeholder="Your Phone Number" class="form-control">
-                <br>
-                <textarea rows="6" type="Message" placeholder="Message" class="form-control"></textarea>
-                <button onclick=""></button>
-            </label>
-        </form>
+</footer>
 
 
-    </div>
-
-</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
