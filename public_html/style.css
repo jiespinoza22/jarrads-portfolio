@@ -1,0 +1,25 @@
+.masthead {
+    min-height: 70vh;
+    background: url('https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/albuquerque/Large_albuquerque_skyline_large_1__47728a9d-f5de-4abc-8263-1ef3954bb434.jpg') no-repeat bottom center fixed;
+    background-size: cover;
+}
+
+
+.masthead__greeting {
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+h1 {
+    font-family: "monospace";
+}
+
+h1 div p {
+    font-family: monospace;
+}
+
