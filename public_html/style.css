@@ -43,13 +43,20 @@ span {
 
 .sticky-top {
     background-image: linear-gradient(
-            90deg,
-            hsl(240deg 100% 20%) 0%,
-            hsl(269deg 100% 25%) 12%,
-            hsl(298deg 100% 30%) 22%,
-            hsl(327deg 100% 35%) 31%,
-            hsl(357deg 100% 40%) 44%,
-            hsl(26deg 100% 45%) 63%,
-            hsl(55deg 100% 50%) 100%
+            180deg,
+            hsl(0deg 0% 0%) 0%,
+            hsl(0deg 0% 13%) 6%,
+            hsl(0deg 0% 27%) 12%,
+            hsl(0deg 0% 40%) 16%,
+            hsl(0deg 1% 51%) 20%,
+            hsl(0deg 2% 60%) 24%,
+            hsl(0deg 3% 69%) 29%,
+            hsl(0deg 3% 69%) 34%,
+            hsl(0deg 2% 60%) 40%,
+            hsl(0deg 1% 51%) 46%,
+            hsl(0deg 0% 40%) 55%,
+            hsl(0deg 0% 27%) 65%,
+            hsl(0deg 0% 13%) 79%,
+            hsl(0deg 0% 0%) 100%
     );
 }
