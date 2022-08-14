@@ -41,7 +41,7 @@ span {
     text-shadow: 0 0 5px black, 0 0 5px black;
 }
 
-.sticky-top {
+.navbar-expand-lg {
     background-image: linear-gradient(
             180deg,
             hsl(0deg 0% 0%) 0%,
@@ -59,4 +59,8 @@ span {
             hsl(0deg 0% 13%) 79%,
             hsl(0deg 0% 0%) 100%
     );
+}
+
+.navbar-toggler {
+    background: cornflowerblue;
 }
