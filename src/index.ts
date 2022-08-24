@@ -7,7 +7,7 @@ const bodyParser = require("body-parser")
 const Recaptcha = require('express-recaptcha').RecaptchaV2
 const formData = require("form-data")
 const Mailgun = require("mailgun.js")
-require('dotenv').config()
+// require('dotenv').config()
 
 // starting express app
 const app: Application = express()
@@ -21,7 +21,7 @@ const mailgun = new Mailgun(formData)
 const mailgunClient = mailgun.client({username: "api", key: process.env.MAILGUN_API_KEY})
 
 const validation = [
-   check ("firstName", "A valid first name is required").not().isEmpty().trim().escape(),
+  check ("firstName", "A valid first name is required").not().isEmpty().trim().escape(),
   check ("lastName", "A valid last name is required").not().isEmpty().trim().escape(),
   check ("emailInfo", "Please provide a valid email").isEmail(),
   check ("comments", "A message must be shorter than 2000 characters").trim().escape().isLength({min:1, max:2000})

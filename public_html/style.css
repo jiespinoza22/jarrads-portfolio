@@ -10,6 +10,7 @@
 }
 h1 {
     font-family: "monospace";
+    color: antiquewhite;
 }
 
 h1 div p {
@@ -18,6 +19,7 @@ h1 div p {
 
 span {
     font-family: cursive;
+    color: antiquewhite;
 }
 
 .submit {
@@ -61,3 +63,8 @@ span {
     );
 }
 
+.container {
+    min-height: 60vh;
+    background-image: url("documentation/form-contact-background.jpeg");
+    background-size: cover;
+}
